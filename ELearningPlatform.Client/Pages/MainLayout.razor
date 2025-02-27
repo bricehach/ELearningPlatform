@@ -1,0 +1,14 @@
+﻿@using Microsoft.AspNetCore.Components.Routing
+
+@inherits LayoutComponentBase
+
+<NavMenu />
+
+<div class="container">
+    @Body
+</div>
+
+<NavMenu>
+    <NavLink href="/login" class="nav-link">Se connecter</NavLink>
+    <NavLink href="/register" class="nav-link">S'inscrire</NavLink>
+</NavMenu>

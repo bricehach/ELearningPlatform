@@ -1,0 +1,37 @@
+﻿@using Microsoft.AspNetCore.Components.Routing
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">ELearningPlatform</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <NavLink href="/" class="nav-link" Match="NavLinkMatch.All">Accueil</NavLink>
+                </li>
+                <li class="nav-item">
+                    <NavLink href="/courses" class="nav-link">Cours</NavLink>
+                </li>
+                <li class="nav-item">
+                    <NavLink href="/evaluations" class="nav-link">Évaluations</NavLink>
+                </li>
+                <li class="nav-item">
+                    <NavLink href="/resources" class="nav-link">Ressources</NavLink>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <NavLink href="/login" class="nav-link">Se connecter</NavLink>
+                </li>
+                <li class="nav-item">
+                    <NavLink href="/register" class="nav-link">S'inscrire</NavLink>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,45 @@
+﻿@page "/login"
+@using ELearningPlatform.Client.Services
+@using Microsoft.AspNetCore.Components.Forms
+@using ELearningPlatform.Client.Shared.Models
+
+@inject NavigationManager Navigation
+@inject IAuthService AuthService
+
+<h3>Connexion</h3>
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <p style="color: red;">@errorMessage</p>
+}
+
+<EditForm Model="loginModel" OnValidSubmit="HandleLogin">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <label>Email</label>
+    <InputText @bind ="loginModel.Email" class="form-control" />
+
+    <label>Mot de passe</label>
+    <InputText @bind ="loginModel.Password" class="form-control" type="password" />
+
+    <button type="submit" class="btn btn-primary">Se connecter</button>
+</EditForm>
+
+@code {
+    private LoginModel loginModel = new LoginModel();
+    private string errorMessage = "";
+
+    private async Task HandleLogin()
+    {
+        var result = await AuthService.Login(loginModel.Email, loginModel.Password);
+        if (result)
+        {
+            Navigation.NavigateTo("/dashboard");
+        }
+        else
+        {
+            errorMessage = "Email ou mot de passe incorrect.";
+        }
+    }
+}
