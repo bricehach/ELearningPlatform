@@ -1,0 +1,35 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ELearningPlatform
+build_property.RootNamespace = ELearningPlatform
+build_property.ProjectDir = C:\Users\f.hacardiaux\Documents\Projet_de_fin_de_formation\PlateformeElearning\WebApplication1\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\f.hacardiaux\Documents\Projet_de_fin_de_formation\PlateformeElearning\WebApplication1
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/f.hacardiaux/Documents/Projet_de_fin_de_formation/PlateformeElearning/WebApplication1/ELearningPlatform.Client/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = RUxlYXJuaW5nUGxhdGZvcm0uQ2xpZW50XFBhZ2VzXExvZ2luLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/f.hacardiaux/Documents/Projet_de_fin_de_formation/PlateformeElearning/WebApplication1/ELearningPlatform.Client/Pages/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = RUxlYXJuaW5nUGxhdGZvcm0uQ2xpZW50XFBhZ2VzXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/f.hacardiaux/Documents/Projet_de_fin_de_formation/PlateformeElearning/WebApplication1/ELearningPlatform.Client/Pages/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = RUxlYXJuaW5nUGxhdGZvcm0uQ2xpZW50XFBhZ2VzXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/f.hacardiaux/Documents/Projet_de_fin_de_formation/PlateformeElearning/WebApplication1/ELearningPlatform.Client/Pages/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = RUxlYXJuaW5nUGxhdGZvcm0uQ2xpZW50XFBhZ2VzXFJlZ2lzdGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
