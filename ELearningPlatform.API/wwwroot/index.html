@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Plateforme E-learning</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .container {
+            background: white;
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .info {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenue sur la Plateforme E-learning</h1>
+        <p class="info">📅 Date : <span id="date"></span></p>
+        <p class="info">⏰ Heure actuelle : <span id="time"></span></p>
+        <p class="info">🌤️ Météo à Paris : <span id="weather"></span></p>
+        <p class="info">📌 Serveur : <strong>En ligne ✅</strong></p>
+    </div>
+
+    <script>
+        async function fetchTime() {
+            const response = await fetch("/api/index/time");
+            const data = await response.json();
+            document.getElementById("time").innerText = `${data.Heure}`;
+            document.getElementById("date").innerText = `${data.Date}`;
+        }
+
+        async function fetchWeather() {
+            try {
+                const response = await fetch("/api/index/weather");
+                if (!response.ok) throw new Error("Erreur API météo");
+                const data = await response.json();
+                document.getElementById("weather").innerText = `${data.Température}, ${data.Conditions}`;
+            } catch (error) {
+                document.getElementById("weather").innerText = "Données indisponibles ❌";
+            }
+        }
+
+        fetchTime();
+        fetchWeather();
+        setInterval(fetchTime, 10000);
+    </script>
+</body>
+</html>
