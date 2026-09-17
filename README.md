@@ -181,7 +181,13 @@ C'est précisément cette dernière partie qui a renforcé mon orientation vers 
 
 ## Documentation du projet
 
-Les documents produits dans le cadre du travail sont conservés avec le dépôt :
+### Documentation technique GitHub
+
+- [Installation et exécution locale](docs/installation.md)
+- [Architecture du projet](docs/architecture.md)
+- [Revue de sécurité](docs/security-review.md)
+
+### Documents du projet de formation
 
 - [Rapport de sécurité ELearningPlatform](https://github.com/user-attachments/files/19025862/Rapport.de.securite.ELearningPlatform.docx)
 - [Projet de fin de formation](https://github.com/user-attachments/files/19025860/Projet.de.fin.de.formation.docx)
