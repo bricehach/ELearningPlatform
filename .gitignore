@@ -61,6 +61,7 @@ Desktop.ini
 .env
 .env.*
 secrets.json
+appsettings.Development.json
 appsettings.Local.json
 appsettings.*.local.json
 
