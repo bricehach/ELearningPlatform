@@ -13,6 +13,25 @@
 
 Le dépôt est conservé comme **projet démonstratif** de mon parcours technique. Il illustre notamment ma capacité à relier développement, infrastructure, base de données et sécurité applicative.
 
+## Pourquoi ce projet existe dans mon parcours
+
+Ce projet représente une **étape d'apprentissage volontaire**, pas un changement d'objectif professionnel vers un métier de développeur.
+
+J'ai voulu passer par la programmation pour comprendre concrètement comment une application est conçue : comment le code est structuré, comment une API échange avec une base de données, comment l'authentification est mise en œuvre, où apparaissent les erreurs et où peuvent se créer les vulnérabilités.
+
+Cette expérience m'a donné une vision plus complète du système d'information. Elle m'a surtout permis de mieux comprendre ce qu'un professionnel de la cybersécurité doit protéger, surveiller, analyser et sécuriser.
+
+Mon orientation professionnelle est aujourd'hui clairement centrée sur :
+
+- **l'infrastructure et les systèmes Windows** ;
+- **la cybersécurité opérationnelle et le SOC** ;
+- **le DFIR et l'analyse de logs** ;
+- **l'automatisation et le hardening**.
+
+La programmation reste donc pour moi **un outil de compréhension et d'automatisation**, pas une finalité de carrière.
+
+> **Comprendre comment une application est construite m'aide à mieux comprendre comment elle peut être attaquée, surveillée et sécurisée.**
+
 ## Objectifs techniques
 
 - Concevoir une application web structurée en plusieurs couches.
@@ -121,17 +140,18 @@ Plusieurs mécanismes sont présents dans le code :
 
 ## Ce que ce projet démontre
 
-Ce projet me permet de présenter concrètement plusieurs compétences :
+Ce projet ne cherche pas à me positionner comme développeur professionnel. Il démontre surtout que j'ai voulu **comprendre le fonctionnement interne d'une application moderne** afin d'en améliorer ensuite l'analyse, l'administration et la sécurité.
 
 | Domaine | Mise en pratique |
 |---|---|
-| **Architecture applicative** | Séparation API / client / accès aux données |
-| **Développement .NET** | C#, ASP.NET Core, .NET 8 |
-| **API** | Contrôleurs REST, Swagger / OpenAPI |
-| **Base de données** | SQL Server, accès aux données, repositories |
-| **Authentification** | JWT, cookies, gestion d'état |
-| **Sécurité applicative** | BCrypt, HTTPS, HSTS, rate limiting |
-| **Documentation** | Rapport technique et rapport de sécurité |
+| **Architecture applicative** | Comprendre la séparation API / client / accès aux données |
+| **Développement .NET** | Comprendre le cycle de développement en C#, ASP.NET Core et .NET 8 |
+| **API** | Comprendre les contrôleurs REST et leur exposition via Swagger / OpenAPI |
+| **Base de données** | Comprendre les échanges avec SQL Server et les repositories |
+| **Authentification** | Comprendre JWT, cookies et gestion d'état |
+| **Sécurité applicative** | Identifier les contrôles liés à BCrypt, HTTPS, HSTS et rate limiting |
+| **Vision cybersécurité** | Relier conception, exposition, authentification, logs, risques et protection |
+| **Documentation** | Produire un rapport technique et un rapport de sécurité |
 
 ## Approche de travail
 
@@ -157,6 +177,8 @@ Documentation
 
 L'objectif n'est pas uniquement d'obtenir une application fonctionnelle, mais également de comprendre **pourquoi elle fonctionne, comment elle peut échouer et comment la sécuriser**.
 
+C'est précisément cette dernière partie qui a renforcé mon orientation vers la cybersécurité.
+
 ## Documentation du projet
 
 Les documents produits dans le cadre du travail sont conservés avec le dépôt :
@@ -178,9 +200,11 @@ Le repository reflète un projet réalisé dans un contexte d'apprentissage. Les
 - ajouter une chaîne CI/CD et des contrôles de sécurité automatisés ;
 - compléter les scénarios de tests de sécurité.
 
+Ces pistes sont désormais davantage envisagées sous l'angle **sécurité, supervision, détection et résilience** que sous l'angle du développement applicatif pur.
+
 ## Positionnement dans mon portfolio
 
-ELearningPlatform complète mes travaux orientés :
+ELearningPlatform représente une **étape de compréhension technique** dans un parcours aujourd'hui orienté vers :
 
 - **Infrastructure & systèmes Windows**
 - **Cybersécurité / SOC**
@@ -188,7 +212,9 @@ ELearningPlatform complète mes travaux orientés :
 - **PowerShell & automatisation**
 - **IA appliquée à l'IT et à la cybersécurité**
 
-Il démontre plus particulièrement mon expérience en **développement sécurisé et architecture applicative**.
+Le développement C#/.NET présenté ici constitue une compétence complémentaire. Il m'aide à dialoguer avec les développeurs, à comprendre l'architecture et le comportement d'une application, et à analyser plus efficacement ses surfaces d'attaque et ses besoins de sécurisation.
+
+**Mon objectif n'est pas de poursuivre une carrière de développeur : mon objectif est d'utiliser cette compréhension du développement au service de la cybersécurité.**
 
 ---
 
